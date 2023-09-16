@@ -1,13 +1,13 @@
 import React from 'react'
 import About from '../pages/about'
-import Contact from '../pages/contactMe'
+// import Contact from '../pages/contactMe'
 import Projects from '../pages/projects'
 
 function layout() {
     const screens = [
         { pages: <About />, id: 'about' },
         { pages: <Projects />, id: 'project' },
-        { pages: <Contact />, id: 'contact' },
+        // { pages: <Contact />, id: 'contact' },
     ]
     return (
         <div className='container'>

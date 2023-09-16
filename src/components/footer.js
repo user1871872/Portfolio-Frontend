@@ -16,6 +16,7 @@ export default function footer() {
                     <p className='text-4xl'>Contact Me</p>
                     <p>Email: Ajd62874@gmail.com</p>
                     <p>Phone Number; 091289521</p>
+                    <button className='bg-yellow-500 p-2 rounded-md w-full'>Resume/CV</button>
                 </div>
             </div>
             <div className='bg-yellow-400 text-center p-6'>
