@@ -25,7 +25,7 @@ function profile() {
           </div>
           <button className='bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full mt-5 flex items-center mx-auto'>
             <img src='/images/messengerIcon.png' alt='' />
-            <a href='https://m.me/aj.felisartaa'>Messenger</a>
+            <a href='https://m.me/aj.felisartaa' target='_black' rel='noopener'>Messenger</a>
           </button>
         </div>
  
