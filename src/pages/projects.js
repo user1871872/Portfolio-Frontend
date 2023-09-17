@@ -2,10 +2,10 @@ import React from 'react'
 
 export default function projects() {
     return (
-        <div className='container'>
-            <div className='p-6 z-10 m-auto '>
+        <div className='container m-auto pt-1'>
+            <div className='p-6 z-10'>
 
-                <h1 className='font-bold text-2xl ml-16'>Projects</h1>
+                <h1 className='font-bold text-2xl m-auto text-center lg:text-left'>Projects</h1>
 
                 {/* <div className='flex flex-row justify-between pt-10 mx-10'>
   <div className='w-20 h-20 rounded-md gap-10 flex flex-wrap'>
@@ -26,8 +26,8 @@ export default function projects() {
                             <p className='text-lg'>HOLY INFANT ACADEMY PORTAL</p>
                             Source code:
                             <div className='flex flex-row gap-5'>
-                                <h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Front-End</h3>
-                                <h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Back-End</h3>
+                                <a href='https://github.com/user1871872/Hia-Frontend'><h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Front-End</h3></a>
+                               <a href='https://github.com/user1871872/Hia-Backend'><h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Back-End</h3></a>
                             </div>
                             <img className='w-full' src='images/porfolio1.jpg' alt='' />
                             <h3 className='tracking-widest text-xs font-medium title-font'>React JS</h3>
@@ -40,8 +40,8 @@ export default function projects() {
                             <p className='text-lg'>UBI General Merchandise Reservation</p>
                             Source code:
                             <div className='flex flex-row gap-5'>
-                                <h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Front-End</h3>
-                                <h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Back-End</h3>
+                               <a href='https://github.com/user1871872/UBPlaza-Frontend'><h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Front-End</h3></a>
+                               <a href='https://github.com/user1871872/UBPlaza-Backend'><h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Back-End</h3></a>
                             </div>
                             <img className='w-full' src='images/portfolio2.jpg' alt='' />
                             <h3 className='tracking-widest text-xs font-medium title-font'>React JS</h3>
@@ -54,7 +54,7 @@ export default function projects() {
                             <p className='text-lg'>Gross Pay Calculator</p>
                             Source code:
                             <div className='flex flex-row gap-5'>
-                                <h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Front-End</h3>
+                              <a href='https://github.com/user1871872/GrosspayCalculator'><h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Front-End</h3></a>
                             </div>
                             <img className='w-full' src='images/porfolio4.jpg' alt='' />
                             <h3 className='tracking-widest text-xs font-medium title-font'>Javascript</h3>
@@ -67,7 +67,7 @@ export default function projects() {
                             <p className='text-lg'>Number To Words</p>
                             Source code:
                             <div className='flex flex-row gap-5'>
-                                <h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Front-End</h3>
+                              <a href='https://github.com/user1871872/NumberToWords'><h3 className='tracking-widest text-xs font-medium title-font cursor-pointer hover:underline'>Front-End</h3></a>
                             </div>
                             <img className='w-full' src='images/porfolio3.jpg' alt='' />
                             <h3 className='tracking-widest text-xs font-medium title-font'>Javascript</h3>

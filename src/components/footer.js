@@ -7,7 +7,7 @@ export default function footer() {
                 <div className='text-white'>
                     <p className='text-4xl'>Social Links</p>
                     <div className='flex justify-center gap-1'>
-                        <img className='w-[50px]' src='/images/face.png' alt='' />
+                       <a href='https://web.facebook.com/aj.felisartaa/'><img className='w-[50px]' src='/images/face.png' alt='' /></a>
                         <img className='w-[50px]' src='/images/insta.png' alt='' />
                         <img className='w-[50px]' src='/images/twit.png' alt='' />
                     </div>
@@ -21,7 +21,7 @@ export default function footer() {
             </div>
             <div className='bg-yellow-400 text-center p-6'>
                 <p>@ajfelisarta</p>
-                <p>All Rights Reserve</p>
+                <p>All Rights Receive</p>
             </div>
         </div>
     )
